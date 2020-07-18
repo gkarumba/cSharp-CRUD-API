@@ -7,7 +7,7 @@ A simple crud application that allows users to register, login , view products, 
 
 ## Features
 
-+  User registration: <API> <http://localhost:4000/users/register>.
++  User registration(API): <http://localhost:4000/users/register>.
    ---PAYLOAD----
     {
     "firstName": "<your firstname>",
@@ -15,15 +15,15 @@ A simple crud application that allows users to register, login , view products, 
     "username": "<your username>",
     "password": "<your password>"
    }
-+  User login: <API> <http://localhost:4000/users/authenticate>.
++  User login(API): <http://localhost:4000/users/authenticate>.
   ---PAYLOAD----
     {
     "username": "<your username>",
     "password": "<your password>"
     }
-+  User view all products: <API> <http://localhost:4000/products>.
-+  User view single product: <API> <http://localhost:4000/products/<product id>>.
-+  User add product: <API> <http://localhost:4000/products/>
++  User view all products(API): <API> <http://localhost:4000/products>.
++  User view single product(API): <API> <http://localhost:4000/products/<product id>>.
++  User add product(API): <API> <http://localhost:4000/products/>
     ---PAYLOAD----
     {
     "name": "<your product name>",
@@ -31,7 +31,7 @@ A simple crud application that allows users to register, login , view products, 
     "user": <user id of user adding product>,
     "price": <price of product>
     }
-+  User edit product: <API> <http://localhost:4000/products/>
++  User edit product(API): <API> <http://localhost:4000/products/>
     ---PAYLOAD----
     {
     "name": "<your product name>",
@@ -40,7 +40,7 @@ A simple crud application that allows users to register, login , view products, 
     "price": <price of product>
     }
  
- +  User delete product: <API> <http://localhost:4000/products/<product id>>
+ +  User delete product(API): <API> <http://localhost:4000/products/<product id>>
    
 
 ## Technology used
