@@ -7,15 +7,15 @@ A simple crud application that allows users to register, login , view products, 
 
 ## Features
 
-+  User registration<http://localhost:4000/users/register>.
++  User registration: <http://localhost:4000/users/register>.
    ---PAYLOAD----
     {
-    "firstName": "<>your firstname",
+    "firstName": "<your firstname>",
     "lastName": "<your lastname>",
     "username": "<your username>",
     "password": "<your password>"
    }
-+  User login<http://localhost:4000/users/authenticate>.
++  User login: <http://localhost:4000/users/authenticate>.
   ---PAYLOAD----
     {
     "username": "<your username>",
